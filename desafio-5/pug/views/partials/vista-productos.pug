@@ -1,0 +1,20 @@
+div
+    h2(style='color:orange;') Lista de Productos
+    br
+    if DB_PRODUCTOS.length > 0
+        div(class= "table-responsive")
+            table.table.table-dark
+                tr(style='color: green;')
+                    th Producto
+                    th Precio
+                    th Imagen
+                each producto in DB_PRODUCTOS
+                    tr
+                        td=producto.producto
+                        td=producto.precio
+                        td
+                            img(width="30" src=producto.Imagen alt="")
+    else
+        h3.alert.alert-warning No se encontraron productos
+    form(action='/' method='GET')
+        button.btn.btn-success.mt-3.mb-5 Ir a Formulario

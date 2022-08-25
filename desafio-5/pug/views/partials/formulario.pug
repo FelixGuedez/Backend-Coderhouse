@@ -1,0 +1,21 @@
+// Formulario
+div(class="jumbotron")
+    h1(style='color:blue;') Ingrese datos
+    br
+    form(action='/productos' method='post')
+        .form-group
+            label(for='producto')
+                b Producto
+            input#producto.form-control(type='text' name='producto')
+        .form-group
+            label(for='precio')
+                b Precio
+            input#precio.form-control(type='text' name='precio')
+        .form-group
+            label(for='Imagen-URL')
+                b Imagen URL
+            input#Imagen.form-control(type='URL' name='Imagen')
+        button.btn.btn-success.mt-3.mb-5 Enviar
+    form(action='/productos' method='get')
+        button.btn.btn-success.mt-3.mb-5 Lista Productos
+// Final Formulario
