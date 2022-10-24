@@ -69,9 +69,6 @@ passport.deserializeUser((username, done) => {
 });
 
 
-
-
-
 //Motor de plantillas
 app.set('views', 'src/views')
 app.engine('hbs', exphbs.engine({
@@ -79,7 +76,6 @@ app.engine('hbs', exphbs.engine({
     layoutsDir: path.join(app.get('views'), 'layouts'),
     extname: 'hbs'
 }));
-// app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', '.hbs');
 
 //Session Setup
