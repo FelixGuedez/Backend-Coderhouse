@@ -1,0 +1,9 @@
+nodemon server.js -p 8080 -m CLUSTER
+
+nodemon server.js -p 8080 -m FORK
+
+
+
+pm2 start server.js --name="Server 1" --watch -- 8081
+
+pm2 start server.js --name="Server Cluster" --watch -i max -- 8082
