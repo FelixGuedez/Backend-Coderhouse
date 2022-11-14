@@ -1,0 +1,14 @@
+[2022-11-14T15:19:40.739] [INFO] default - Servidor escuchando en puerto http://localhost:8085 - PID WORKER 11480
+[2022-11-14T15:20:32.525] [INFO] default - Servidor escuchando en puerto http://localhost:8085 - PID WORKER 6252
+[2022-11-14T15:28:24.916] [INFO] default - Servidor escuchando en puerto http://localhost:8085 - PID WORKER 11692
+[2022-11-14T15:28:29.480] [WARN] default - Ruta GET /info2 no implementada
+[2022-11-14T15:29:25.418] [INFO] default - Servidor escuchando en puerto http://localhost:8085 - PID WORKER 11756
+[2022-11-14T15:29:29.335] [WARN] default - Ruta GET /info2 no implementada
+[2022-11-14T15:44:33.758] [INFO] default - Servidor escuchando en puerto http://localhost:8085 - PID WORKER 7756
+[2022-11-14T18:52:42.430] [INFO] default - Servidor escuchando en puerto http://localhost:8080 - PID WORKER 10536
+[2022-11-14T18:56:09.331] [WARN] default - Ruta GET /favicon.ico no implementada
+[2022-11-14T18:56:13.472] [WARN] default - Ruta GET /favicon.ico no implementada
+[2022-11-14T19:24:54.617] [INFO] default - Servidor escuchando en puerto http://localhost:8080 - PID WORKER 5776
+[2022-11-14T19:27:16.461] [INFO] default - Servidor escuchando en puerto http://localhost:8080 - PID WORKER 11672
+[2022-11-14T19:45:59.158] [INFO] default - Servidor escuchando en puerto http://localhost:8080 - PID WORKER 7180
+[2022-11-14T19:55:04.156] [INFO] default - Servidor escuchando en puerto http://localhost:8080 - PID WORKER 13884
