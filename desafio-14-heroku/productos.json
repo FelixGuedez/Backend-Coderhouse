@@ -1,0 +1,13 @@
+[
+    {"nombre": "Mouse", "precio": 1200, "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_706788-MLA45377337052_032021-F.webp"},
+    {"nombre": "Teclado", "precio": 1300, "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_854388-MLA51058075408_082022-F.webp"},
+    {"nombre": "Monitor 19 pulgadas ", "precio": 2800, "imagen": "https://http2.mlstatic.com/D_NQ_NP_667844-MLC48935115249_012022-O.webp"},
+    {"nombre": "CPU Core I7", "precio": 4800, "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_754630-MLC48874213269_012022-F.webp"},
+    {"nombre": "USB", "precio": 800, "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_788099-MLA45994054152_052021-F.webp"},
+    {"nombre": "Audifonos", "precio": 2200, "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_804066-MLA48699001758_122021-F.webp"},
+    {"nombre": "Parlantes", "precio": 1900, "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_911855-MLA45733906109_042021-F.webp"},
+    {"nombre": "CPU Core I5", "precio": 4200, "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_754630-MLC48874213269_012022-F.webp"},
+    {"nombre": "CPU Core I3", "precio": 3800, "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_754630-MLC48874213269_012022-F.webp"},
+    {"nombre": "Monitor 27 pulgadas", "precio": 3300, "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_956836-MLA45732116948_042021-F.webp"} 
+]
+
