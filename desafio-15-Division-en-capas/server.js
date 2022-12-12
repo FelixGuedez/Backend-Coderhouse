@@ -18,8 +18,7 @@ import { Strategy } from 'passport-local'
 import mongoose from 'mongoose';
 import { usuarioModel } from './models/usuario.model.js';
 import routerApp from './router/routerApp.routers.js';
-import {logger} from '../desafio-13-Loggers-Gzip-Analisis-Performance/src/utils/logger.config.js';
-
+import { logger } from './src/utils/logger.config.js'
 // const LocalStrategy = Strategy
 let nameUser
 

@@ -4,8 +4,8 @@ log4js.configure({
     appenders: {
         console: {type: 'console'},
         debugFile: { type: 'file', filename: '../../loggers/debug.log'},
-        errorFile: { type: 'file', filename: '../../loggers//error.log'},
-        warnFile: { type: 'file' , filename: '../../loggers//warn.log' },
+        errorFile: { type: 'file', filename: '../../loggers/error.log'},
+        warnFile: { type: 'file' , filename: '../../loggers/warn.log' },
         //
         loggerConsole: { type: 'logLevelFilter', appender: 'console', level: 'info'},
         loggerDebug: { type: 'logLevelFilter', appender: 'debugFile', level: 'info'},
