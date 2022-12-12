@@ -1,0 +1,46 @@
+<div class="jumbotron p-0 m-2 d-flex justify-content-between">
+    <h2 style="color: green;">Bienvenido {{nombre}}</h2>
+        <button class="btn btn-warning mt-1 mb-1" onclick="location.href='/logout'" type="submit">Logout</button>
+</div>
+
+
+<div>
+    <h2 style="color:orange;">Lista de Productos</h2>
+
+    <div class="table-responsive">
+        <table class="table table-dark" id="historial">
+
+        </table>
+    </div>
+
+</div>
+
+
+<h3>Chat de Mensajes</h3>
+<h4>Compresion <span id="porcentajeCompresion"></span></h4>
+<form>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" aria-describedby="userComment">
+        <!-- <small id="userComment" class="form-text text-muted">Email que se utilizara al enviar mensajes.</small> -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" aria-describedby="userComment">
+        <label for="apellido">Apellido:</label>
+        <input type="text" class="form-control" id="apellido" aria-describedby="userComment">
+        <label for="edad">Edad:</label>
+        <input type="number" class="form-control" id="edad" aria-describedby="userComment">
+        <label for="alias">Alias:</label>
+        <input type="text" class="form-control" id="alias" aria-describedby="userComment">
+        <label for="avatar">Avatar:</label>
+        <input type="text" class="form-control" id="avatar" aria-describedby="userComment">
+    </div>
+    <div class="form-group">
+        <label for="contenidoMensaje">Mensaje:</label>
+        <input class="form-control" id="contenidoMensaje" rows="3"></input>
+    </div>
+    <button class="btn btn-success" onclick="enviarMensaje()">Enviar Mensaje</button>
+</form>
+<hr>
+<div id="mensajes">
+    <!-- aqui se renderizan los mensajes recibidos por parte del server -->
+</div>
