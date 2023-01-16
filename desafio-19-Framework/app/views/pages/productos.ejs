@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+</head>
+
+<body onload="verProductos()">
+
+    <div class="jumbotron p-0 m-2 d-flex justify-content-between">
+        <!-- <h2 style="color: green;">Bienvenido {{nombre}}</h2>
+        <button class="btn btn-warning mt-1 mb-1" onclick="location.href='/logout'" type="submit">Logout</button> -->
+    </div>
+
+
+    <div>
+        <h2 style="color:orange;">Lista de Productos</h2>
+
+        <!-- <button class="btn btn-warning mt-1 mb-1" onclick="verProductos()">Ver Productos</button> -->
+
+        <div class="table-responsive">
+            <table class="table table-dark" id="historial">
+
+            </table>
+        </div>
+
+    </div>
+    <script>
+
+
+
+
+        function verProductos() {
+            fetch('http://localhost:1337/productos')
+                .then(res => res.json())
+                .then(res => console.log(res));
+            // console.log(producto)  
+            const htmlProductos = [res].map((item) => {
+                return `<tr>
+            <td>${item.nombre}</td>
+            <td>${item.precio}</td>
+            <td>
+                <img width="30" src="${item.imagen}" alt="">
+            </td>
+        </tr>`
+            })
+
+            const headerTabla = ` <tr style="color: green;">
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+        </tr>`
+
+            document.querySelector("#historial").innerHTML = headerTabla + htmlProductos
+        }
+    </script>
+</body>
+
+</html>
